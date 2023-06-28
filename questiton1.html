@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+   <style>
+    h1 {
+    text-align: center;
+    color: #137ad4;
+}
+.form-actions button[type="reset"] {
+    background-color: #ccc;
+}
+
+.form-actions button[type="submit"] {
+    background-color: #4CAF50;
+}
+div{
+    text-align: center;
+}
+.abcd{
+   
+    font-size: 20px;
+    font-style: bold;
+    color: #0be221;
+    text-decoration: solid;
+}
+   </style>
+</head>
+<body>
+    <h1>Student Registration</h1>
+<div>
+    <form>
+        <div>
+        <label class="abcd" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+    </div>
+<div>
+    <br>
+        <label for="gender" class="abcd">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </br>
+    </div>
+<div>
+    <br>
+    <label for="Core-Subject" class="abcd">Core-Subject</label> 
+</br>
+        
+        <input type="checkbox" id="linear-algebra" name="course" value="linearalgebra">
+        <label for="linear-algebra">Linear-Algebra</label> 
+        <input type="checkbox" id="Ordinary-de" name="course" value="differtial equation">
+        <label for="Ordinary-de">Differential-Equation</label>
+        <input type="checkbox" id="Calculas" name="course" value="Calculas">
+        <label for="Calculas">Calculas</label>
+    </div>
+
+    <div>
+        <br>
+    <label for="Extra-Subject"  class="abcd">Extra-Subject</label>
+    </br>
+            <input type="radio" id="Hindi" name="extra" value="Hindi">
+            <label for="Hindi">Hindi</label>
+            <input type="radio" id="Comp-science(sec)" name="extra" value="Comp-science(sec)">
+            <label for="Comp-science(sec)">Comp-science(sec)</label>
+            <input type="radio" id="Comp-science(Vac)" name="extra" value="Comp-science(Vac)">
+            <label for="Comp-science(Vac)">Comp-science(Vac)</label>
+        </div>
+        <br>
+        <div class="form-actions">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </br>
+    </form>
+</div>
+
+  
+   </div>
+</body>
+</html>
